@@ -826,7 +826,7 @@ Router.route('/post/:_id', function () {
 
 You can automatically take advantage of this functionality by using the `subscriptions` option to your route.
 
-```
+```javascript
 Router.route('/post/:_id', {
   subscriptions: function() {
     // returning a subscription handle or an array of subscription handles
